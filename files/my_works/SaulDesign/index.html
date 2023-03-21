@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <title>SaulDesign</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container-header">
+            <a href="#" class="header__logo">
+                <img src="img/header/logo.svg" alt="">
+            </a>
+
+            <nav class="header__menu menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item"><a data-goto=".hire-me" href="#" class="header__menu-link">Home</a></li>
+                    <li class="header__menu-item"><a data-goto=".about" href="#" class="header__menu-link">About Me</a></li>
+                    <li class="header__menu-item"><a data-goto=".contact" href="#" class="header__menu-link">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+    <main class="page">
+        <section class="page-Hire_me hire-me">
+            <div class="Hire_me__container">
+                <div class="hire_me-content">
+                    <h1 class="hire_me-title">CREATIVE UI <span>DESIGNER</span></h1>
+                    <div class="hire_me-buttons">
+                        <a href="#" class="hire_me-button button">Hire me</a>
+                        <a href="#" class="hire_me-button_dark button button__dark"><span>Download CV</span></a>
+                    </div>
+                </div>
+                <div class="hire_me-img">
+                    <img src="img/main/page1.svg" alt="img">
+                </div>
+            </div>
+        </section>
+        <section class="page-about about">
+            <div class="about__container">
+                <div class="about__content">
+                    <h2 class="about__title title">About <span>me</span></h2>
+                    <div class="about__text about__text">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="about__img">
+                    <img src="img/main/page2.svg" alt="img">
+                </div>
+            </div>
+
+        </section>
+        <section class="page-examples examples">
+            <div class="examples__container">
+                <h2 class="examples__title title">My recent <span>works</span></h2>
+                <nav class="examples__buttons">
+                    <button data-work-type="" class="examples__button button button__dark active">ALL</button>
+                    <button data-work-type="ui" class="examples__button button button__dark">UI</button>
+                    <button data-work-type="ux" class="examples__button button button__dark">UX</button>
+                    <button data-work-type="wd" class="examples__button button button__dark">Web Design</button>
+                </nav>
+                <div class="examples__items-body">
+                <a data-work-type="ui" href="" class="examples__items">
+                    <div class="examples__item">
+                        <img src="img/main/slider1.svg" alt="img">
+                    </div>
+                </a>
+                <a data-work-type="ux" href="" class="examples__items">
+                    <div class="examples__item">
+                        <img src="img/main/slider2.svg" alt="img">
+                    </div>
+                </a>
+                <a data-work-type="wd" href="" class="examples__items">
+                    <div class="examples__item">
+                        <img src="img/main/slider3.svg" alt="img">
+                    </div>
+                </a>
+                </div>
+            </div>
+        </section>
+        <section class="contact page__contact">
+            <div class="contact__container ">
+                <div class="contact__item">
+                    <h2 class="contact__title title">Got a project in <span>mind?</span></h2>
+                    <div class="contact__img">
+                        <img src="img/main/page3.svg" alt="img">
+                    </div>
+                </div>
+                <form action="#" class="contact__forms">
+                    <div class="form__item">
+                        <label for="i-1" class="form__label">Your name</label>
+                        <input required id="i-1" type="text" class="form__input" placeholder="Name" name="name">
+                    </div>
+                    <div class="form__item">
+                        <label for="i-2" class="form__label">Your email</label>
+                        <input required id="i-2" type="email" class="form__input" placeholder="Email" name="email">
+                    </div>
+                    <div class="form__item">
+                        <label for="i-3" class="form__label">Your Message</label>
+                        <textarea id="i-3" type="text" class="form__input" placeholder="Message" name="Message"></textarea>
+                    </div>
+                    <div class="form__item">
+                        <button type="submit" class="form__button button">Send Message<span></span></button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                    <li class="menu-footer__item">
+                        <a data-goto=".hire-me" href="" class="menu-footer__link menu-footer__link_home">Home</a>
+                    </li>
+                    <li class="menu-footer__item">
+                        <a data-goto=".about" href="" class="menu-footer__link menu-footer__link_about">About me</a>
+                    </li>
+                    <li class="menu-footer__item">
+                        <a data-goto=".contact" href="" class="menu-footer__link menu-footer__link_contacts">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__social social">
+                <a href="" class="social__link">
+                    <img src="img/footer/facebook.svg" alt="facebook">
+                </a>
+                <a href="" class="social__link">
+                    <img src="img/footer/instagram.svg" alt="instagram">
+                </a>
+                <a href="" class="social__link">
+                    <img src="img/footer/twitter.svg" alt="twitter">
+                </a>
+                <a href="" class="social__link">
+                    <img src="img/footer/youtube.svg" alt="youtube">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
